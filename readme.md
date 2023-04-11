@@ -1,0 +1,30 @@
+# Taxi service 
+This is a __Taxi Service__ - project with a powerful ui interface and awesome functionality
+
+# Features
+- Comfortable and simple management of cars, drivers and manufacturers
+- Strong authentication system
+- Fast and optimized application performance
+- Smart site navigation
+
+# How to run?
+- `git clone https://github.com/mishok321/taxi-service`
+- `cd taxi-service`
+- `mvn clean && mvn install`
+- `mv target/taxi-service-1.0-SNAPSHOT.war /path/to/tomcat/webapps`
+- Run tomcat and enjoy __Taxi Service__
+
+#### Or
+You can configure and run tomcat from intellij idea ultimate
+
+# Structure
+- Login page - /login - simple login page
+- Main page - /cars - machine and manufacturer management
+- All Drivers - /drivers - all drivers management
+- My Drivers - /drivers/my - current driver's cars
+- Car drivers - /car/drivers?carId={id} - management of drivers of the current car
+
+# Used technologies
+- mysql-connector-java: 8.0.22
+- javax.servlet-api: 4.0.1
+- jstl: 1.2
